@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "OPERA disaster products pipeline built on next_pass outputs."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 
 authors = [
   { name = "Your Name", email = "you@example.com" }
@@ -24,8 +24,8 @@ dependencies = [
   "boto3>=1.26.0",
   "earthaccess>=0.7.0",
   "pygmt>=0.11.0",
-  "opera-utils",          # if this is an internal package, you can vendor or edit as needed
-  "next-pass",            # or whatever the installable name of your next_pass package is
+  "opera-utils",
+  "next-pass",
 ]
 
 [project.optional-dependencies]
